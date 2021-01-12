@@ -151,6 +151,10 @@ gap_co2_region %>% ggplot() +
   geom_point()
 
 
+# write your dataframe to a csv file! 
+write_csv(gap_co2_region, "data/gapminder_co2.csv")
+
+
 
 
   
